@@ -185,6 +185,3 @@ print(b)
 print(type(b))
 
 '''
-print("Hi")
-print("hello world")
-print("Kushagra Vaish")
