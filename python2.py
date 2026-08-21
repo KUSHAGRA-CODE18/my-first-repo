@@ -1,57 +1,187 @@
-from turtle import Screen, Turtle, mainloop
+'''
+print("Hi")
+Value = 110
+print(Value)
+print(type(Value))
+Value = 99.99
+print(Value)
+print(type(Value))
+Name = "raj"
+print(Name)
+print(type(Name))
 
-class ColorTurtle(Turtle):
+'''
 
-    def __init__(self, x, y):
-        Turtle.__init__(self)
-        self.shape("turtle")
-        self.resizemode("user")
-        self.shapesize(3,3,5)
-        self.pensize(10)
-        self._color = [0,0,0]
-        self.x = x
-        self._color[x] = y
-        self.color(self._color)
-        self.speed(0)
-        self.left(90)
-        self.pu()
-        self.goto(x,0)
-        self.pd()
-        self.sety(1)
-        self.pu()
-        self.sety(y)
-        self.pencolor("gray25")
-        self.ondrag(self.shift)
+'''
+a, b, c = 10, 20, 30
+print(a, b, c)
+print(b, c, a)
+a, b, c = 10, 20 # {values must be same as variables}
+print(a, b, c)
 
-    def shift(self, x, y):
-        self.sety(max(0,min(y,1)))
-        self._color[self.x] = self.ycor()
-        self.fillcolor(self._color)
-        setbgcolor()
+'''
 
-def setbgcolor():
-    screen.bgcolor(red.ycor(), green.ycor(), blue.ycor())
+'''
+a = b = c = 10
+print(a, b, c)
+'''
 
-def main():
-    global screen, red, green, blue
-    screen = Screen()
-    screen.delay(0)
-    screen.setworldcoordinates(-1, -0.3, 3, 1.3)
+'''
+a = 20
+print("first assigned value : ", a)
+print(type(a))
+a = "kushagra"
+print("second assigned value : ", a)
+print(type(a))
 
-    red = ColorTurtle(0, .5)
-    green = ColorTurtle(1, .5)
-    blue = ColorTurtle(2, .5)
-    setbgcolor()
+'''
 
-    writer = Turtle()
-    writer.ht()
-    writer.pu()
-    writer.goto(1,1.15)
-    writer.write("DRAG!",align="center",font=("Arial",30,("bold","italic")))
-    return "EVENTLOOP"
+# REPRESENTATION OF DOUBLE
+#120 = 12e1
+#1200 = 12e2
+#0.12 = 12e(-2)
 
-if __name__ == "__main__":
-    msg = main()
-    print(msg)
-    mainloop()
 
+# BUILT-IN DATA TYPES IN PYTHON
+# 1. NUMERIC TYPES(INT, FLOAT, COMPLEX)
+# 2. Bool
+# 3. None
+# 4. Str
+# 5. Bytes
+# 6. Bytearray
+# 7. Tuple
+# 8. List
+# 9. Range
+# 10. Set
+
+
+'''
+a = 2e2
+b = 2E2
+c = 2e4
+print(a)
+print(type(a))
+print(b)
+print(type(b))
+print(c)
+print(type(c))
+
+'''
+
+'''
+a = 3 + 5j
+print(a)
+print(type(a))
+b = -3 - 5.5j
+print(b)
+print(type(b))
+print(a+b)
+print(type(a+b))
+print(a+b)
+print(type(a-b))
+print(a+b)
+print(type(a*b))
+print(a+b)
+print(type(a/b))
+'''
+
+'''
+a = True
+b = ""
+print(a+b)
+print(a+a)
+print(a-b)
+print(a*b)
+print(a/b) #{NOT ALLOWED IN BOOLEAN OPERATER}
+c = bool(b) #[WE CAN USE IT WITHOUT ARITHMETIC OPERATOR]
+print(a + c * 2) #[WE CANNOT USE ARITHMETIC OPERATOR IF WE TAKE A BOLLEAN DATATYPE AS EMPTY STRING]
+
+'''
+
+'''
+a = None
+print(a)
+print(type(a))
+
+'''
+#BYTE => SMALLEST UNIT TO STORE ANY DATA
+
+
+# name1 = "Manmeet"
+# name2 = "KUSHAGRA"
+# address_line1 = '''Kalam COTTAGE 2,
+# knowledge Park 3, 
+# Greater Noida'''
+# print(name1)
+# print(name2)
+# print(address_line1)
+
+'''
+x = [10, 20, 30, 40, 50]
+y = bytes(x)
+print(type(x))
+print(type(y))
+print(x[0])
+w = x[0]
+print(x[1])
+print(x[2])
+print(x[3])
+print(x[4])
+print(x[-1])
+print(x[-2])
+print(x[-3])
+print(x[-4])
+print(x[-5])
+
+'''
+
+'''
+x = [10, 20, 30, 40, 50]
+for i in x:
+    print(i)
+
+'''
+
+'''
+x = [10, 20, 30, 40, 50]
+y = bytes(x)
+print(y)
+'''
+
+'''
+a = range(5)
+print(a)
+for i in a:
+    print(i)
+print("--")
+b = range(1, 10)
+for i in b:
+    print(i)
+print("--")
+c = range(1, 7, 2)
+for i in c:
+    print(i)
+print("--")
+d = range(10, 0, -2)
+for i in d:
+    print(i)
+print("--")
+e = range(10, 2)
+for i in e:
+    print(i)
+
+'''
+
+'''
+a = 50
+print(type(a))
+b = float(a)
+print(type(b))
+
+a = 50.7
+print(type(a))
+b = int(a)
+print(b)
+print(type(b))
+
+'''
