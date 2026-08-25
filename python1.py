@@ -185,3 +185,43 @@ print(b)
 print(type(b))
 
 '''
+
+'''
+val1 = "abcd" + str(34)
+val2 = 12 + int("56")
+print(val1)
+print(val2)
+
+'''
+
+'''
+a = 5
+n = float(a)
+print(n)
+print(type(n))
+
+a = 5.9
+n = int(a)
+print(n)
+print(type(n))
+
+'''
+
+
+a = 10
+b = 20
+c = (a if a<b else b) + 89
+print(c)
+
+a = 10
+b = -3
+c = 90
+s = (a if a<c else c) if a<b else (b if b<c else c)
+print(s)
+
+w = 10
+x = 20
+y = 30
+z = 40
+m = (((w) if w<z else (z)) if w<y else ((y) if y<z else (z))) if w<x else (((x) if x<z else (z)) if x<y else ((y) if y<z else (z)))
+print(m)
