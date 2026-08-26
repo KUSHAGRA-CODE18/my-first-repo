@@ -88,3 +88,30 @@ else:
     print(num3,"is greatest")
 '''
 
+'''
+marks = [23,54,78,455,890]
+print(marks)
+print(type(marks))
+print(len(marks))
+'''
+
+'''
+st = ['kushagra', 56, 89.89]
+print(st)
+st[1]=89
+print(st)
+print(st[5]) #INDEXING OUT OF RANGE
+'''
+
+'''
+MARKS = [6,54,78,3,98] #ENDING INDEX IS NOT INCLUDED
+print(MARKS[3:])
+print(MARKS[:4])
+print(MARKS[-1])
+'''
+
+
+list = [2,1,3]
+list.append(4)
+print(list)
+ 
