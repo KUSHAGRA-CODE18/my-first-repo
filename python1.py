@@ -206,6 +206,8 @@ print(n)
 print(type(n))
 
 '''
+
+'''
 a = 10
 b = 20
 c = (a if a<b else b) + 89
@@ -217,9 +219,117 @@ c = 90
 s = (a if a<c else c) if a<b else (b if b<c else c)
 print(s)
 
-w = 10
-x = 20
+w = 50
+x = 89
 y = 30
 z = 40
 m = (((w) if w<z else (z)) if w<y else ((y) if y<z else (z))) if w<x else (((x) if x<z else (z)) if x<y else ((y) if y<z else (z)))
 print(m)
+
+'''
+
+'''
+h = (12 and 5) + 4
+print(h)
+
+i = (0 and 0) 
+print(i)
+
+j = (0 and 6) + 9
+print(j)
+
+k = ("" and 5)
+print(k)
+
+l = (None and 8)
+print(l)
+
+h = (12 or 5) + 4
+print(h)
+
+j = (0 or 6) + 9
+print(j)
+
+k = ("" or 5)
+print(k)
+
+l = (None or 8)
+print(l)
+
+'''
+
+'''
+print(not 24)
+print(not "")
+
+'''
+
+'''
+a = 30
+b = 40
+a += b
+print(a)
+a -= b
+print(a)
+a *= b
+print(a)
+a /= b
+print(a)
+
+'''
+
+'''
+a = 10
+print(-a)
+
+'''
+
+'''
+text = "Welcome to python programming"
+print("Welcome" in text)
+print("welcome" in text)
+print("hgvt" in text)
+print("hari" not in text)
+
+'''
+
+'''
+a = 10
+b = 10
+print(id(a))
+print(id(b))
+
+'''
+
+'''
+a = 10
+b = 12
+print(a is b)
+print(a is not b)
+print(id(a))
+print(id(b))
+
+'''
+
+        # ___       __       ___     __            __ ___ ___  __        __
+        #  |  |\ | |__| |  |  |     |__ |  | |\ | |    |   |  |  | |\ | |__
+        # _|_ | \| |    |__|  |     |   |__| | \| |__  |  _|_ |__| | \|  __|
+
+'''
+name = input("enter your name :")
+print("Your name is :", name)
+
+a = float(input("Enter the 1st no. :"))
+b = float(input("Enter the 2nd no. :"))
+c = a + b
+print(c)
+
+'''
+
+        #  __       __           __            __ ___ ___  __        __
+        # |__ \  / |__| |       |__ |  | |\ | |    |   |  |  | |\ | |__
+        # |__  \/  |  | |__     |   |__| | \| |__  |  _|_ |__| | \|  __|
+
+
+from sys import argv
+a = eval(argv[1])
