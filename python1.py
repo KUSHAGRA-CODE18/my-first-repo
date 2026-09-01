@@ -331,5 +331,9 @@ print(c)
         # |__  \/  |  | |__     |   |__| | \| |__  |  _|_ |__| | \|  __|
 
 
-from sys import argv
-a = eval(argv[1])
+# from sys import argv
+# a = eval(argv[1])
+
+#print(None == "")
+print((10<20)+(10 and 20)+(10 or 20)*3)
+print(10<20+10 and 20+10 or 20*3)
