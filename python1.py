@@ -335,5 +335,11 @@ print(c)
 # a = eval(argv[1])
 
 #print(None == "")
-print((10<20)+(10 and 20)+(10 or 20)*3)
-print(10<20+10 and 20+10 or 20*3)
+# print((10<20)+(10 and 20)+(10 or 20)*3)
+# print(10<20+10 and 20+10 or 20*3)
+l1 = ["ruby", "python", "java" , "c++"]
+l2 = [1, 2, 3, 4, 5]
+str1 = "python is a programming language and it is easy to learn"
+print("yes" if "python" in str1 else "no")
+print("yes" if "python" in l1 else "no")
+print("yes" if 3 in l2 else "no")
