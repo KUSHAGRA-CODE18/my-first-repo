@@ -1,4 +1,4 @@
-#Write a python programme to count repeated charecter in a string
+#Ques. Write a python programme to count repeated charecter in a string
 
 str = "thequickbrownfoxjumpsoverthelazydog"
 stu = ""
