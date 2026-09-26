@@ -1,0 +1,27 @@
+                WORLD ORDER TO DO PYTHON PROGRAMMING
+
+1. Input the string
+2. Create an empty string
+3. Extract words from the string to list
+4. loop through all words
+    a. Extra even char using slicicing
+    b. concat with the empty string with spaces
+5. print the string with strip()
+
+                                Modules and packages:-
+
+What are modules in Python? 
+
+In Python, a module Means save Python file. This file can contain a group of classes, methods, functions, and variables. Every file with a .py or Python extension is called a Python file, in turn, a module. 
+
+Reloading a module in Python
+
+If a module is updated outside after loading it in our program, then the loaded version of the module will not be available to our program. We can solve the problem by reloading modules explicitly based on our requirement, whatever is needed. 
+
+
+dir() function in python:
+
+We can find members of a module by using the dir() function. For every module, at the time of execution, the Python interpreter will add some special properties automatically for internal use. For example:
+
+_name_
+_packages_
