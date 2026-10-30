@@ -1,38 +1,38 @@
-# #                               DICTIONARIES IN PYTHON
+#                               DICTIONARIES IN PYTHON
 
-# d = {}
-# d[1] = "Arun"
-# d[2] = "Chetan"
-# d[1] = "Kushagra"
-# print(d)
+d = {}
+d[1] = "Arun"
+d[2] = "Chetan"
+d[1] = "Kushagra"
+print(d)
 
-# # Accessing dictionaries in Python 
+# Accessing dictionaries in Python 
 
-# d = {1 : "Ramesh", 2 : "Suresh", 3 : "Mahesh"}
-# print(d[1])
-# print(d[2])
-# print(d[3])
+d = {1 : "Ramesh", 2 : "Suresh", 3 : "Mahesh"}
+print(d[1])
+print(d[2])
+print(d[3])
 
-# # print(d[4]) # KeyError: It occurs when the key is not available in the given dictionary. 
+# print(d[4]) # KeyError: It occurs when the key is not available in the given dictionary. 
 
-# if 400 in d:
-#     print(d[400])
-# else:
-#     print("Key not found")
+if 400 in d:
+    print(d[400])
+else:
+    print("Key not found")
 
 
-# # Ques:
+# Ques:
 
-# d = {}
-# n = int(input("Enter the number of employees: "))
-# i = 1
-# while i <= n:
-#     name = input("Enter the name of the employee: ")
-#     salary = input("Enter the salary of the employee: ")
-#     d[name] = salary
-#     i +=1
-# for x in d:
-#     print("The name is: ", x, "and his salary is:", d[x])
+d = {}
+n = int(input("Enter the number of employees: "))
+i = 1
+while i <= n:
+    name = input("Enter the name of the employee: ")
+    salary = input("Enter the salary of the employee: ")
+    d[name] = salary
+    i +=1
+for x in d:
+    print("The name is: ", x, "and his salary is:", d[x])
 
 
 # del keyword
